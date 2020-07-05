@@ -17,3 +17,12 @@ def plot_result(*args):
         ax.axis('off')
     fig.tight_layout()
     plt.show()
+
+def plot_histogram(image):
+    fig, axis = plt.subplots(nrows=1, ncols = 3, figsize=(12, 4), sharex=True, sharey=True)
+    color_lst = ['red', 'green', 'blue']
+    for index, (ax, color) in enumerate(zip(axis, color_lst)):
+        ax.set_title('{} histogram'.format(color.title()))
+        ax.hist(image[:, :, index].ravel(), bins = 256, color = color, alpha = 0.8)
+    fig.tight_layout()
+    plt.show()
