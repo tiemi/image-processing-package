@@ -1,4 +1,4 @@
-# package_name
+# Scientific image processing package
 
 Description. 
 The package package_name is used to:
