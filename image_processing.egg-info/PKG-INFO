@@ -1,3 +1,12 @@
+Metadata-Version: 2.1
+Name: image-processing
+Version: 0.0.1
+Summary: image Processing Package using Skimage
+Home-page: https://github.com/Hanieri21/image-processing-package
+Author: Ytalo
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
 # package_name
 
 Description. 
@@ -18,7 +27,7 @@ The package package_name is used to:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install imagem_processing
+pip install image_processing
 ```
 
 ## Usage
